@@ -1,1 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Registration form</title>
+</head>
+
+<body>
+    <div class="maincontent">
+            <h1 class="h1">Registration Form</h1><br>
+            <form id="form" name="Login Form" method="post">
+                <label for="fname">First Name : </label>
+                <br>
+                <input type="text" class="F_name" placeholder="Enter Name: "><br>
+                <br>
+                <label for="M_name">Middle Name : </label>
+                <br>
+                <input type="text" class="F_name" placeholder="Enter Father's Name: "><br>
+                <br>
+                <label for="L_name">Last name : </label>
+                <br>
+                <input type="text" class="F_name" placeholder="Enter Surname: "><br>
+                <br>
+                <label for="Gender">Gender : </label>
+                <input type="radio" id="male" name="Gender">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="Gender">
+                <label for="female">Female</label><br>
+                <br>
+                <label for="password">Password : </label><br>
+                <input type="password" name="password" class="F_name" placeholder="Enter Password"><br>
+                <br>
+                <label for="C_password">Conform Password : </label><br>
+                <input type="password" name="C_password" class="F_name" placeholder="Enter Password Again"><br>
+                <br>
+                <div><label for="address">Address : </label></div>
+                <textarea name="address" id="address" rows="3" placeholder="Add Address Here:"></textarea><br>
+                <br>
+                <label for="Hobbies">Hobbies : </label>
+                <input type="checkbox" name="Hobbies" id="Hobbies">
+                <label for="Play">Play</label>
+                <input type="checkbox" name="Hobbies" id="Hobbies">
+                <label for="dance">Dance</label>
+                <input type="checkbox" name="Hobbies" id="Hobbies">
+                <label for="reading">Reading</label><br>
+                <br>
+                <label for="color">Color : </label>
+                <input type="color" name="color" id="color"> <br>
+                <br>
+                <label for="date">Date : </label>
+                <input id="date" type="date"><br>
+                <br>
+                <label for="M_no" >Enter Mobile Number : </label><br>
+                <input type="number" name="M_no" class="F_name" placeholder="Enter Mobile No.: "><br>
+                <br>
+                <label for="Department">Department : </label>
+                <select name="Department" id="department">
+                    <option value="Engineering">Computer Engineering</option>
+                    <option value="Engineering">Information Technolegy</option>
+                    <option value="Engineering">Artificial Intelligance</option>
+                </select><br>
+                <br>
+                <label for="Resume">Resume : </label>
+                <input type="file" name="Resume" id="resume"><br>
+                <br>
+                <div id="button">
+                <input type="submit" name="submit " id="submit" >
+                <input type="reset" name="reset" id="reset" ><br> <br>
+            </div>
+            </form>
+        </div>
+</body>
+
+</html>
