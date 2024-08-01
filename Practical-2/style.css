@@ -1,0 +1,82 @@
+body {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.sp {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.table {
+    border: 1px solid white;
+    margin: auto;
+
+}
+
+.stu {
+    border: 1px solid blue;
+    background: yellow;
+    color: blue;
+    padding: 6px;
+}
+
+a {
+    display: block;
+}
+
+a:link {
+    color: blueviolet;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+a:hover {
+    color: red;
+
+}
+
+a:active {
+    color: green;
+    padding: 10px;
+}
+
+h1:nth-child(1) {
+    color: red;
+    background-color: yellow;
+}
+
+h1:nth-child(3){
+    color: red;
+    background-color: yellowgreen;
+}
+
+div:nth-child(3){
+    color: red;
+    background-color: rgb(252, 253, 251);
+}
+
+.im{
+    height: 387px;
+    width: 720px;
+    border: 5px outset red;
+    padding:20px;
+    margin: auto;
+    background-image: url("https://th.bing.com/th/id/OIP.dDVYFmGyiJs9MV0D9WhrCgHaEK?rs=1&pid=ImgDetMain");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.a2{
+    position: sticky;
+    background: aquamarine;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+}
+
